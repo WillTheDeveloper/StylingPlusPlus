@@ -52,8 +52,28 @@ Not sure yet.
     #include "stylingplusplus.h"
 
     int main() {
-        std::cout << txtbold(txtred("Hello World!")) << std::endl;
-        std::cout << bgred(txtwhite("Hello World!")) << std::endl;
+        txtred("Hello World!");
+        txtgreen("Hello World!");
+        txtblue("Hello World!");
+        txtyellow("Hello World!");
+        txtcyan("Hello World!");
+        txtwhite("Hello World!");
+        txtblack("Hello World!");
+        txtbold("Hello World!");
+        txtunderline("Hello World!");
+        txtblink("Hello World!");
+        txtlinethrough("Hello World!");
+        textitalic("Hello World!");
+        
+        bgred("Hello World!");
+        bggreen("Hello World!");
+        bgblue("Hello World!");
+        bgyellow("Hello World!");
+        bgcyan("Hello World!");
+        bgwhite("Hello World!");
+        bgblack("Hello World!");
+        bgmagenta("Hello World!");
+        bggrey("Hello World!");
         return 0;
     }
 ```
