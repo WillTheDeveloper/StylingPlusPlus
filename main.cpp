@@ -49,7 +49,7 @@ void styling::txtlinethrough(std::string s) {
     std::cout << "\033[9m" << s << "\033[0m" << std::endl;
 }
 
-void styling::textitalic(std::string s) {
+void styling::txtitalic(std::string s) {
     std::cout << "\033[3m" << s << "\033[0m" << std::endl;
 }
 
@@ -101,7 +101,7 @@ int main() {
     txtunderline("Hello World!");
     txtblink("Hello World!");
     txtlinethrough("Hello World!");
-    textitalic("Hello World!");
+    txtitalic("Hello World!");
 
     bgred("Hello World!");
     bggreen("Hello World!");

@@ -27,7 +27,7 @@ namespace styling
     void bgmagenta(std::string s);
     void bggrey(std::string s);
     void txtlinethrough(std::string s);
-    void textitalic(std::string s);
+    void txtitalic(std::string s);
 }
 
 #endif //CPPSTYLING_MAIN_H

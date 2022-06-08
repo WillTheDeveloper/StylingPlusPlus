@@ -63,7 +63,7 @@ Not sure yet.
         txtunderline("Hello World!");
         txtblink("Hello World!");
         txtlinethrough("Hello World!");
-        textitalic("Hello World!");
+        txtitalic("Hello World!");
         
         bgred("Hello World!");
         bggreen("Hello World!");
