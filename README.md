@@ -41,3 +41,21 @@ Not sure yet.
 | Magenta | bgmagenta(string) |
 | White   | bgwhite(string)   |
 | Black   | bgblack(string)   |
+
+## Example
+
+### Code snippet
+
+    #include <iostream>
+    #include <string>
+    #include "stylingplusplus.h"
+
+    int main() {
+        std::cout << txtbold(txtred("Hello World!")) << std::endl;
+        std::cout << bgred(txtwhite("Hello World!")) << std::endl;
+        return 0;
+    }
+
+### Image
+
+![img.png](img.png)
