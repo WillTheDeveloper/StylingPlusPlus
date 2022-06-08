@@ -46,6 +46,7 @@ Not sure yet.
 
 ### Code snippet
 
+```cpp
     #include <iostream>
     #include <string>
     #include "stylingplusplus.h"
@@ -55,6 +56,7 @@ Not sure yet.
         std::cout << bgred(txtwhite("Hello World!")) << std::endl;
         return 0;
     }
+```
 
 ### Image
 
