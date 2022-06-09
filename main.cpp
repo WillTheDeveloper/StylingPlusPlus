@@ -33,6 +33,55 @@ void styling::txtblack(std::string s) {
     std::cout << "\033[1;30m" << s << "\033[0m" << std::endl;
 }
 
+// void styling::txtpurple(std::string s) {
+//     std::cout << "\033[1;35m" << s << "\033[0m" << std::endl;
+// }
+
+// void styling::txtbrown(std::string s) {
+//     std::cout << "\033[1;33m" << s << "\033[0m" << std::endl;
+// }
+
+// void styling::txtorange(std::string s) {
+//     std::cout << "\033[1;33m" << s << "\033[0m" << std::endl;
+// }
+
+// void styling::txtamber(std::string s) {
+//     std::cout << "\033[1;33m" << s << "\033[0m" << std::endl;
+// }
+
+// void styling::txtpink(std::string s) {
+//     std::cout << "\033[1;33m" << s << "\033[0m" << std::endl;
+// }
+
+// void styling::txtindigo(std::string s) {
+//     std::cout << "\033[1;33m" << s << "\033[0m" << std::endl;
+// }
+
+// void styling::txtviolet(std::string s) {
+//     std::cout << "\033[1;33m" << s << "\033[0m" << std::endl;
+// }
+
+// void styling::txtlightblue(std::string s) {
+//     std::cout << "\033[1;33m" << s << "\033[0m" << std::endl;
+// }
+
+// void  styling::txtlightgreen(std::string s) {
+//     std::cout << "\033[1;33m" << s << "\033[0m" << std::endl;
+// }
+
+// void styling::txtlightcyan(std::string s) {
+//     std::cout << "\033[1;33m" << s << "\033[0m" << std::endl;
+// }
+
+// void styling::txtlightred(std::string s) {
+//     std::cout << "\033[1;33m" << s << "\033[0m" << std::endl;
+// }
+
+// void styling::txtlightpurple(std::string s) {
+//     std::cout << "\033[1;33m" << s << "\033[0m" << std::endl;
+// }
+
+
 void styling::txtbold(std::string s) {
     std::cout << "\033[1m" << s << "\033[0m" << std::endl;
 }
@@ -97,6 +146,18 @@ int main() {
     txtcyan("Hello World!");
     txtwhite("Hello World!");
     txtblack("Hello World!");
+    // txtpurple("Hello World!");
+    // txtbrown("Hello World!");
+    // txtorange("Hello World!");
+    // txtamber("Hello World!");
+    // txtpink("Hello World!");
+    // txtindigo("Hello World!");
+    // txtviolet("Hello World!");
+    // txtlightblue("Hello World!");
+    // txtlightgreen("Hello World!");
+    // txtlightcyan("Hello World!");
+    // txtlightred("Hello World!");
+    // txtlightpurple("Hello World!");
     txtbold("Hello World!");
     txtunderline("Hello World!");
     txtblink("Hello World!");
